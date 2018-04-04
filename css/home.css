@@ -1,0 +1,468 @@
+/* --------------------.sec1-------------------- */
+.bodyer .main .sec1 {
+  height: 300px;
+}
+
+.bodyer .main .sec1 .carousel {
+  position: relative;
+  height: 300px;
+}
+
+
+.bodyer .main .sec1 .carousel .item .title {
+  display: block;
+  padding-left: 50px;
+  position: relative;
+  top: -50px;
+  text-align: left;
+  color: #fff;
+  font-size: 20px;
+  line-height: 50px;
+  background: rgba(0, 0, 0, .35);
+}
+
+.bodyer .main .sec1 .indicator {
+  position: relative;
+  top: -85px;
+}
+
+.bodyer .main .sec1 .indicator a {
+  position: absolute;
+  left: 100px;
+  color: #fff;
+  font-size: 20px;
+}
+
+.bodyer .main .sec1 .indicator .carousel-indicators {
+  margin: 0;
+  padding: 0 50px;
+  position: relative;
+  top: 0;
+  left: 0;
+  z-index: 15;
+  width: 100%;
+  text-align: right;
+  list-style: none;
+  opacity: 1;
+}
+
+.bodyer .main .sec1 .indicator .carousel-indicators li {
+  width: 20px;
+  height: 6px;
+  border-radius: 0;
+  border: none;
+  background-color: #666;
+}
+
+.bodyer .main .sec1 .indicator .carousel-indicators li.active {
+  background-color: #fff;
+}
+
+/* --------------------.sec2 .sec5-------------------- */
+.bodyer .main .sec2 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+
+.bodyer .main .sec2 .news-item.left {
+  float: left;
+  width: 712px;
+}
+
+.bodyer .main .sec2 .news-item.right {
+  float: right;
+  width: 472px;
+}
+
+.bodyer .main .sec2 .news-item.left .title {
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.bodyer .main .sec2 .news-item.left .title p {
+  padding: 5px;
+  width: 150px;
+  height: 40px;
+  background: url("../images/title.png") no-repeat center;
+  background-size: cover;
+  color: #fff;
+  font-size: 18px;
+}
+
+.bodyer .main .sec2 .news-item.left .title .line {
+  position: absolute;
+  width: 572px;
+  left: 140px;
+  top: 13px;
+  height: 0;
+  border-top: 1px solid black;
+}
+
+.bodyer .main .sec2 .news-item.left .title img {
+  float: right;
+  position: relative;
+  top: -25px;
+}
+
+.bodyer .main .sec2 .news-item.left .content {
+  padding-left: 12px;
+  text-align: left;
+}
+
+.bodyer .main .sec2 .news-item.left .content .news-img {
+  display: inline-block;
+  width: 218px;
+  height: 177px;
+  vertical-align: top;
+}
+
+.bodyer .main .sec2 .news-item.left .img.img-4 {
+  background: url("../images/pic4.png") no-repeat center;
+  background-size: cover;
+}
+
+.bodyer .main .sec2 .news-item.left .list {
+  display: inline-block;
+}
+
+.bodyer .main .sec2 .news-item.left .list p {
+  display: block;
+  position: relative;
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.bodyer .main .sec2 .news-item.left .list p span {
+  display: inline-block;
+  margin: 0 10px;
+  width: 5px;
+  height: 5px;
+  line-height: 20px;
+  background-color: black;
+  vertical-align: 7px;
+}
+
+.bodyer .main .sec2 .news-item.left .list p a {
+  display: inline-block;
+  max-width: 400px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.bodyer .main .news-item .content a:hover {
+  font-size: 16px;
+  font-weight: bold;
+  color: #084884;
+}
+
+.bodyer .main .sec2 .news-item.left p img {
+  display: inline-block;
+  position: absolute;
+  top: -12px;
+  right: -30px;
+}
+
+.bodyer .main .sec2 .news-item.right .title {
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.bodyer .main .sec2 .news-item.right .title p {
+  padding: 5px;
+  width: 150px;
+  height: 40px;
+  background: url("../images/title.png") no-repeat center;
+  background-size: cover;
+  color: #fff;
+  font-size: 18px;
+}
+
+.bodyer .main .sec2 .news-item.right .title .line {
+  position: absolute;
+  width: 350px;
+  left: 140px;
+  top: 13px;
+  height: 0;
+  border-top: 1px solid black;
+}
+
+.bodyer .main .sec2 .news-item.right .title img {
+  float: right;
+  position: relative;
+  top: -25px;
+  left: -10px;
+}
+
+.bodyer .main .sec2 .news-item.right .content {
+  padding-left: 12px;
+  text-align: left;
+}
+
+.bodyer .main .sec2 .news-item.right .content p {
+  position: relative;
+  margin-bottom: 5px;
+  line-height: 22px;
+  font-size: 16px;
+}
+
+.bodyer .main .sec2 .news-item.right .content p i {
+  color: #4d84b7;
+  font-size: 23px;
+  vertical-align: 3px;
+}
+
+.bodyer .main .sec2 .news-item.right .content p a {
+  display: inline-block;
+  max-width: 420px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.bodyer .main .sec2 .news-item.right .content p a.short {
+  max-width: 400px;
+}
+
+.bodyer .main .sec2 .news-item.right .content p span {
+  color: #084884;
+  font-size: 16px;
+}
+
+.bodyer .main .sec2 .news-item.right .content p img {
+  display: inline-block;
+  position: absolute;
+  top: -12px;
+}
+
+/* --------------------.sec3 .special-------------------- */
+.bodyer .main .sec2 .news-item.left.special .content .item {
+  margin-bottom: 18px;
+  margin-right: 5px;
+  display: inline-block;
+  width: 125px;
+  height: 80px;
+  background-color: #E6EAF3;
+  border-top: 1px solid #084884;
+}
+
+.bodyer .main .sec2 .news-item.left.special .content .item:hover {
+  font-weight: 400;
+  font-size: 14px;
+  cursor: pointer;
+  color: #fff;
+  background-color: #2d8ce9;
+}
+
+.bodyer .main .sec2 .news-item.left.special .content .item:hover i,
+.bodyer .main .sec2 .news-item.left.special .content .item:hover p {
+  color: #fff;
+}
+
+.bodyer .main .sec2 .news-item.left.special .content .item i {
+  font-size: 40px;
+  display: block;
+  color: #2d8ce9;
+  text-align: center;
+}
+
+.bodyer .main .sec2 .news-item.left.special .content .item p {
+  text-align: center;
+  line-height: 20px;
+  color: #2d8ce9;
+}
+
+.bodyer .main .sec2 .news-item.left.special .content .item.active,
+.bodyer .main .sec2 .news-item.left.special .content .item.active i,
+.bodyer .main .sec2 .news-item.left.special .content .item.active p {
+  color: #fff;
+  background-color: #2d8ce9;
+}
+
+.bodyer .main .sec2 .news-item.left.special .content .list {
+  display: inline-block;
+}
+
+.bodyer .main .sec2 .news-item.left.special .content .list a {
+  display: inline-block;
+  max-width: 300px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/* --------------------.sec3-------------------- */
+.bodyer .main .sec3 .img {
+  margin-bottom: 30px;
+  height: 100px;
+  background: url("../images/pic12.png") no-repeat center;
+  background-size: cover;
+}
+
+.bodyer .main .sec3 .img p {
+  padding-left: 200px;
+  line-height: 100px;
+  text-align: left;
+  font-weight: bold;
+  font-size: 48px;
+  color: #fff;
+}
+
+/* --------------------.sec4-------------------- */
+.bodyer .main .sec4 .news-item .title {
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.bodyer .main .sec4 .news-item .title p {
+  padding: 5px;
+  width: 150px;
+  height: 40px;
+  background: url("../images/title.png") no-repeat center;
+  background-size: cover;
+  color: #fff;
+  font-size: 18px;
+}
+
+.bodyer .main .sec4 .news-item .title .line {
+  position: absolute;
+  width: 1050px;
+  left: 150px;
+  top: 13px;
+  height: 0;
+  border-top: 1px solid black;
+}
+
+.bodyer .main .sec4 .news-item .title img {
+  float: right;
+  position: relative;
+  top: -25px;
+  left: -10px;
+}
+
+.bodyer .main .sec4 .news-item .content {
+  position: relative;
+  padding: 0 12px;
+  text-align: left;
+}
+
+.bodyer .main .sec4 .news-item .content .item {
+  position: relative;
+  display: inline-block;
+  width: 280px;
+  font-size: 0;
+}
+
+.bodyer .main .sec4 .news-item .content .item .news-img {
+  margin: 0;
+  width: 280px;
+  height: 150px;
+}
+
+.bodyer .main .sec4 .news-item .content .item a {
+  position: absolute;
+  top: 50px;
+  left: 110px;
+}
+
+.bodyer .main .sec4 .news-item .content .item a .play {
+  margin: 0;
+}
+
+.bodyer .main .sec4 .news-item .content .item p {
+  padding-top: 10px;
+  text-align: left;
+  font-size: 18px;
+}
+
+.bodyer .main .sec4 .news-item .content button.left {
+  position: absolute;
+  left: 15px;
+  top: 50px;
+  width: 10px;
+  height: 50px;
+  background: url("../images/left.png") no-repeat center;
+  background-size: cover;
+  border: none;
+}
+
+.bodyer .main .sec4 .news-item .content button.right {
+  position: absolute;
+  top: 50px;
+  right: 60px;
+  width: 10px;
+  height: 50px;
+  background: url("../images/right.png") no-repeat center;
+  background-size: cover;
+  border: none;
+}
+
+.scroll-horizontal {
+  position: relative;
+  height: 200px;
+  background-color: #fff;
+}
+
+.scroll-horizontal .box {
+  overflow: hidden;
+  position: relative;
+  width: 1176px;
+  height: 200px;
+  margin: 0 auto;
+}
+
+.scroll-horizontal .list {
+  overflow: hidden;
+  width: 9999px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.scroll-horizontal .list li {
+  float: left;
+  width: 298px;
+  list-style: none;
+  text-align: left;
+  position: relative;
+}
+
+.scroll-horizontal .list li a {
+  position: absolute;
+  top: 50px;
+  left: 120px;
+}
+
+.scroll-horizontal .list li .news-img {
+  width: 280px;
+  height: 150px;
+}
+
+.scroll-horizontal .list li p {
+  font-size: 16px;
+  padding-top: 5px;
+}
+
+.scroll-horizontal .prev,
+.scroll-horizontal .next {
+  position: absolute;
+  top: 50%;
+  margin-top: -40px;
+  width: 17px;
+  height: 47px;
+  z-index: 10;
+  background-repeat: no-repeat;
+  font: 0/0 Arial;
+  cursor: pointer;
+}
+
+.scroll-horizontal .prev {
+  left: 14px;
+  background-image: url("../images/left.png");
+}
+
+.scroll-horizontal .next {
+  right: 14px;
+  background-image: url("../images/right.png");
+}
